@@ -6,7 +6,7 @@ const Header = () => {
             <div className="container">
                 <h1>Product List - CRUD - React.js Redux</h1>
             </div>
-            <a href="/product/new"
+            <a href="/product/new-product"
                className="btn btn-danger nuevo-post d-block d-md-inline-block">Add Product &#43;</a>
         </nav>
      );
