@@ -1,0 +1,19 @@
+{
+    "productos": [
+      {
+        "nombre": "Rib Eye",
+        "precio": "500",
+        "id": 1
+      },
+      {
+        "nombre": "Jugo de Limón",
+        "precio": 100,
+        "id": 2
+      },
+      {
+        "nombre": "Caja",
+        "precio": 2,
+        "id": 3
+      }
+    ]
+  }
