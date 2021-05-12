@@ -1,5 +1,5 @@
 import './App.css';
-import React, {Fragment} from 'react';
+import React from 'react';
 import Header from './component/Header'
 import Product from './component/Product'
 import NewProduct from './component/NewProduct'
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Header/>
 
-      <div className="container">
+      <div className="container mt-5">
          <Switch>
            <Route exact path="/" component={Product}/>
            <Route exact path="/product/new-product" component={NewProduct}/>
